@@ -1,0 +1,57 @@
+
+  .card {
+    margin-top: 20px;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-body {
+    text-align: justify;
+  }
+
+  img.col-6.offset-3 {
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h5 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(124, 22, 4);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .fa-solid.fa-lightbulb {
+    font-size: 1.2em;
+    margin-right: 10px;
+    animation: bounce 1s infinite alternate;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+  .card-body {
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0)
+  }
+  
+  .card-body p {
+    margin-bottom: 20px;
+  }
+  
