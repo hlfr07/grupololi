@@ -9,7 +9,7 @@ const enviarGMAIL = async (req, res) => {
   const CLIENT_SECRET = "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";
   const REDIRECT_URL = "https://developers.google.com/oauthplayground";
   const REFRESH_TOKEN =
-    "1//04uCigMxWlHA1CgYIARAAGAQSNwF-L9IrPzJaeCv63dQ2kEYhR1CdpJNBGBH0JuXXJ_o12BgliOvLwTXXpiYDUbTH_KrB2JaHhqQ";
+    "1//04Mnn_b-yvQHmCgYIARAAGAQSNwF-L9IrzXHLpgXr9aQecDxi5KMSFqMFoO-RF3POHomgjzoMNzuzd4U6NMacL896320VQKOEIUw";
 
   const oAuth2Client = new google.auth.OAuth2(
     CLIENT_ID,
